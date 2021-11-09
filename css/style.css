@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+.logo a{ width: 160px}
+.menu ul{display: flex;
+justify-content: flex-end;list-style: none;display: list-item;}
+.menu li{ margin-left: 40px;margin-bottom: 80px
+}
+.menu li a{font-family:'Press Start 2P', cursive;
+    text-decoration: none; transition: transform ease 0.5s;
+font-size: 40px; color:#1F1534; font-weight:400 }
+.menu li a:hover{  font-weight: 700; ;transform: rotate(30deg)
+ }
+.active{  
+	font-weight: 700 !important}
+.img-banner img{width: 693px}
+
+
+/*menuheader*/
+
+.menu-header ul{display: flex;
+justify-content: flex-end;list-style: none; transition: all 0.5s;}
+.menu-header li{ margin-left: 40px;margin-bottom: 80px; transition: all 0.5s;
+}
+.menu-header li a{font-family:'Press Start 2P', cursive;
+    text-decoration: none; transition: all 0.5s;
+font-size: 30px; color:#1F1534; font-weight:300 }
+.menu-header li a:hover{  font-weight: 700 ;transform: scale();
+ }
+.active{  
+	font-weight: 700 !important}
+.img-banner img{width: 693px}
+
+a:hover{  font-weight: 900; color: cornflowerblue
+ }
+
+
+.box { height:200px;
+background:red;
+animation-name:doi-mau;
+animation-delay:0.2s;
+animatio-duration:2s;
+animation-iteration-count: infinite;
+animation-direction:alternate;
+animation-fill-mode:forwards;
+animation-timing-function: linear}
+
+.doimautext {animation: doi-mau ease 10s infinite}
+@keyframes doi-mau{ 0% {color: cornflowerblue} 25% {color:indianred} 75% {color:greenyellow} }
+.scale-text {animation: scale-text ease 0.01s infinite}
+@keyframes scale-text{ 0% {transform: scale(1);color: red} 100% {transform: scale(1.02);color: yellow}  }
+
+
+    

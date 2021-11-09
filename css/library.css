@@ -1,0 +1,245 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+  body {font-family: 'Press Start 2P', cursive;
+   
+    color: #7D7987;
+    line-height: 1.75;
+   
+}
+
+.text-box {font-family: 'Press Start 2P', cursive;
+    font-weight: 300;
+    color: #7D7987;
+    line-height: 1.75;
+    font-size: 30px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+    color: #1f1f1f;
+    line-height: 117%;
+}
+.h1 {
+    font-size: 48px;
+}
+.h2 {
+    font-size: 36px;
+}
+.h3 {
+    font-size: 24px;
+}
+.subtitle {
+    font-size: 18px;
+}
+.caption {
+    font-size: 14px;
+}
+.bg-primary {
+    background: #458FF6;
+}
+.bg-secondary {
+    background:rosybrown;
+}
+.bg-error {
+    background: #ff0a0a;
+}
+.bg-success {
+    background: #25c9ab;
+}
+.text-primary {
+    color: #458FF6;
+}
+.text-white {
+    color: white;
+}
+.text-error {
+    color: #ff0a0a;
+}
+.text-success {
+    color: #25c9ab;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+.text-justify {
+    text-align: justify;
+}
+.btn {
+    font-size: 18px;
+    padding: 14px 40px;
+    border-radius: 55px;
+    text-decoration: none;
+}
+.btn-primary {
+    background: #458FF6;
+    color: white;
+}
+.btn-outline {
+    background: transparent;
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+}
+.section-1 {
+    width: 100%;
+}
+.container {
+    width: 100%px;
+    margin: 0 auto;
+}
+.container-fluid {
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row>* {
+    padding: 32px;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-end {
+    justify-content: flex-end;
+}
+.align-self-start {
+    align-self: flex-start;
+}
+.align-self-center {
+    align-self: center;
+}
+.align-self-end {
+    align-self: flex-end;
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+.p-1 {
+    padding: 8px;
+}
+.p-2 {
+    padding: 16px;
+}
+.p-3 {
+    padding: 24px;
+}
+.pt-1 {
+    padding-top: 8px;
+}
+.pb-1 {
+    padding-bottom: 8px;
+}
+.ps-1 {
+    padding-left: 8px;
+}
+.ps-10 {padding-left: 80px}
+.pe-1 {
+    padding-right: 8px;
+}
+.px-1 {
+    padding: 0 8px;
+}
+.px-2 {
+    padding: 0 16px;
+}
+.py-1 {
+    padding: 8px 0;
+}
+.py-2 {
+    padding: 16px 0;
+}
+.py-5 {
+    padding: 40px 0;
+}
+.py-7 {
+    padding: 56px 0;
+}
+.m-1 {
+    margin: 8px;
+}
+.mt-1 {
+    margin-top: 8px;
+}
+.mt-10 {
+    margin-top: 40px;
+}
+.mt-20 {
+    margin-top: 80px;
+}
+.mt-30 {
+    margin-top: 120px;
+}
+.mt-15 {
+    margin-top: 60px;
+}
+.mb-1 {
+    margin-bottom: 8px;
+}
+.ms-1 {
+    margin-left: 8px;
+}
+.me-1 {
+    margin-right: 8px;
+}
+.mx-1 {
+    margin: 0 8px;
+}
+.my-1 {
+    margin: 8px 0;
+
+}
+.mx-auto {
+    margin: 0 auto;
+}
+.banner {width:100%;position: relative;
+height:100%; overflow: hidden;display: flex;justify-content: center; animation: slide 0.3s ease-in-out forwards;
+}
+.align-s-center {display:flex;align-seft:center}
